@@ -1,3 +1,33 @@
-.h1 {
-  color: red;
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  font-family: "Brush Script MT", cursive;
+  font-size: 25px;
+  background-color: #646464;
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.login {
+  float: right;
+}
+.login:hover {
+  background-color: #e54d2e;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #ffe770;
+  color: black;
 }
