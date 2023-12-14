@@ -26,6 +26,7 @@
   list-style: none;
   padding: 0;
   display: flex;
+  margin-left: 190px;
 }
 
 .footer-links li {
@@ -40,7 +41,7 @@
 }
 
 .footer-links a:hover {
-  color: #3498db;
+  color: black;
 }
 
 .footer-social a {
@@ -52,7 +53,7 @@
 }
 
 .footer-social a:hover {
-  color: #3498db;
+  color: black;
 }
 
 .footer-bottom {
