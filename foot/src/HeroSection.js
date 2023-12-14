@@ -14,11 +14,6 @@ const HeroSection = () => {
           Get Started
         </a>
       </div>
-      <div className="floating-products">
-        <div className="floating-product product1"></div>
-        <div className="floating-product product2"></div>
-        <div className="floating-product product3"></div>
-      </div>
     </div>
   );
 };
