@@ -1,13 +1,12 @@
 import React from "react";
 import "./Footer.css";
-import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <h1>Your Logo</h1>
+          <h1>Trendy</h1>
         </div>
         <div className="footer-links">
           <ul>
@@ -31,21 +30,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaFacebook />
+            Facebook
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaTwitter />
+            Twitter
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaInstagram />
+            Instagram
           </a>
         </div>
       </div>

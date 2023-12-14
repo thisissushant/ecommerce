@@ -18,20 +18,24 @@ nav a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  margin-top: 5px;
 }
 .login {
   float: right;
 }
 .login:hover {
-  background-color: #e54d2e;
   color: black;
 }
 
 nav a:hover {
-  background-color: #ffe770;
   color: black;
 }
 .home {
-  background-color: #ffe770;
-  color: black;
+  color: yellow;
+  font-size: 43px;
+  margin-top: -11px;
+  margin-right: 100px;
+}
+.home:hover {
+  color: red;
 }
