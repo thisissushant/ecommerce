@@ -24,6 +24,11 @@ function Header() {
           Login
         </a>
       </nav>
+      <div className="video">
+        <i class=" fa-solid fa-video fa-fade">
+          <a href="#videoCall"> Video Call Request</a>
+        </i>
+      </div>
     </>
   );
 }

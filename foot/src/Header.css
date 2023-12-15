@@ -39,3 +39,19 @@ nav a:hover {
 .home:hover {
   color: red;
 }
+.video {
+  font-size: 15px;
+  background-color: #646464;
+  overflow: hidden;
+  text-align: center;
+  color: red;
+}
+.video i a {
+  font-family: "Roboto Mono", monospace;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.video i a:hover {
+  color: orange;
+}
