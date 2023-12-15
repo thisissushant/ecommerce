@@ -14,6 +14,7 @@ function Header() {
         <a href="#about">Replacement</a>
         <a href="#services">About</a>
         <a href="#contact">Contact</a>
+
         <Cart />
 
         <a className="login" href="#cart">
