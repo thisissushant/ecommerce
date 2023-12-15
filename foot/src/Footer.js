@@ -30,21 +30,21 @@ const Footer = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Facebook
+            <i class="fa-brands fa-facebook fa-spin"></i>
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Twitter
+            <i class="fa-brands fa-twitter fa-spin"></i>
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Instagram
+            <i class="fa-brands fa-instagram fa-spin"></i>
           </a>
         </div>
       </div>
