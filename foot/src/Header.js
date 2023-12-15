@@ -10,8 +10,9 @@ function Header() {
           Trendy
         </a>
         <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
+        <a href="#shop">Shop</a>
+        <a href="#about">Replacement</a>
+        <a href="#services">About</a>
         <a href="#contact">Contact</a>
         <Cart />
 
