@@ -3,8 +3,8 @@
   color: #fff;
   padding: 20px;
   font-family: "Brush Script MT", cursive;
-  font-size: 20px;
-  text-align: center;
+  font-size: 2vw;
+  justify-content: center;
 }
 
 .footer-content {
@@ -15,7 +15,7 @@
 }
 
 .footer-logo h1 {
-  font-size: 3rem;
+  font-size: 3vw;
   margin-top: 20px;
   color: yellow;
 }
@@ -27,6 +27,7 @@
   list-style: none;
   padding: 0;
   display: flex;
+  text-align: center;
 }
 
 .footer-links li {
@@ -38,6 +39,7 @@
   color: #fff;
   font-weight: bold;
   transition: color 0.3s ease;
+  text-align: center;
 }
 
 .footer-links a:hover {
@@ -46,7 +48,6 @@
 
 .footer-social a {
   color: #fff;
-  font-size: 1.5rem;
   margin-right: 10px;
   text-decoration: none;
   transition: color 0.3s ease;
@@ -63,4 +64,5 @@
 .footer-bottom p {
   margin: 0;
   font-size: 1rem;
+  text-align: center;
 }
