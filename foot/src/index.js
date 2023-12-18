@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import HeroSection from "./HeroSection";
-import Header from "./Header";
+import HeroSection from "./Components/HeroSection";
+import Header from "./Components/Header";
 import reportWebVitals from "./reportWebVitals";
-import Footer from "./Footer";
+import Footer from "./Components/Footer";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(

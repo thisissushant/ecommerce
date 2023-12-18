@@ -6,7 +6,7 @@ body {
 
 nav {
   font-family: "Brush Script MT", cursive;
-  font-size: 25px;
+  font-size: 2vw;
   background-color: #646464;
   overflow: hidden;
 }
@@ -32,7 +32,7 @@ nav a:hover {
 }
 .home {
   color: yellow;
-  font-size: 43px;
+  font-size: 3vw;
   margin-top: -11px;
   margin-right: 100px;
 }
@@ -40,7 +40,7 @@ nav a:hover {
   color: red;
 }
 .video {
-  font-size: 15px;
+  font-size: 1vw;
   background-color: #646464;
   overflow: hidden;
   text-align: center;

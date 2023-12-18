@@ -1,6 +1,6 @@
 import "./Header.css";
 import React from "react";
-import Cart from "./icons/Cart";
+import Cart from "../icons/Cart";
 
 function Header() {
   return (
