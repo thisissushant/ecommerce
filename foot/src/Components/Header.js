@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <nav>
-        <a className="home" href="#home">
+        <a className="home-logo" href="#home">
           Trendy
         </a>
         <a href="#home">Home</a>

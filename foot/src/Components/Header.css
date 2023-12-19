@@ -15,10 +15,9 @@ nav a {
   float: left;
   display: block;
   color: white;
-  text-align: center;
+  align-items: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-top: 5px;
 }
 .login {
   float: right;
@@ -30,13 +29,8 @@ nav a {
 nav a:hover {
   color: black;
 }
-.home {
-  color: yellow;
-  font-size: 3vw;
-  margin-top: -11px;
-  margin-right: 100px;
-}
-.home:hover {
+
+.home-logo:hover {
   color: red;
 }
 .video {
@@ -54,4 +48,10 @@ nav a:hover {
 }
 .video i a:hover {
   color: orange;
+}
+.home-logo {
+  font-size: 5vh;
+  align-items: center;
+  color: yellow;
+  margin-right: 100px;
 }
