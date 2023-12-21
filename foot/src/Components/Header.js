@@ -5,7 +5,7 @@ import Cart from "../icons/Cart";
 function Header() {
   return (
     <>
-      <nav>
+      <nav className="bg-slate-800		">
         <a className="home-logo" href="#home">
           Trendy
         </a>
@@ -24,8 +24,8 @@ function Header() {
           Login
         </a>
       </nav>
-      <div className="video">
-        <i class=" fa-solid fa-video fa-fade">
+      <div className="video bg-slate-800	">
+        <i class=" fa-solid fa-video fa-fade ">
           <a href="#videoCall"> Video Call Request</a>
         </i>
       </div>

@@ -3,9 +3,9 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer className="bg-slate-800	footer ">
       <div className="footer-content">
-        <div className="footer-logo">
+        <div className="footer-logo ">
           <h1>Trendy</h1>
         </div>
         <div className="footer-links">
