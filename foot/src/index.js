@@ -5,12 +5,14 @@ import HeroSection from "./Components/HeroSection";
 import Header from "./Components/Header";
 import reportWebVitals from "./reportWebVitals";
 import Footer from "./Components/Footer";
+import Shop from "./Components/Shop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
     <HeroSection />
+    <Shop />
     <Footer />
   </React.StrictMode>
 );
