@@ -8,6 +8,8 @@ import Footer from "./Components/Footer";
 import Shop from "./Components/Shop";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+let myDate = new Date();
+console.log(myDate.getMinutes());
 root.render(
   <React.StrictMode>
     <Header />

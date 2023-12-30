@@ -1,12 +1,14 @@
 import React from "react";
+const newDate = Date();
 
 export default function Shop() {
   return (
-    <div className="">
-      Shop
-      <div className="box-border h-32 w-32 p-4 border-4">
-        <h1>Products</h1>
-      </div>
-    </div>
+    <>
+      <ul>
+        <li>
+          <h2>Today is</h2>
+        </li>
+      </ul>
+    </>
   );
 }
