@@ -22,7 +22,7 @@ const products = [
   {
     id: 3,
     name: "Focus Paper Refill",
-    href: "#",
+    href: "google.com",
     price: "$89",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",

@@ -5,7 +5,7 @@ import Cart from "../icons/Cart";
 function Header() {
   return (
     <>
-      <nav className="bg-slate-800		">
+      <nav className="bg-slate-800 		">
         <a className="home-logo" href="#home">
           Trendy
         </a>
