@@ -40,3 +40,4 @@ const products = [
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
 ];
+export default products;
