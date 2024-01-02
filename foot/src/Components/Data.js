@@ -1,47 +1,42 @@
-const Product = [
+const products = [
   {
-    ID: 100,
-    Name: "Sneakers",
-    Price: 130,
-    Color: "Black",
-    Discription: "This is best shoes available in market ",
-    Photo:
-      "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww",
+    id: 1,
+    name: "Earthen Bottle",
+    href: "#",
+    price: "$48",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+    imageAlt:
+      "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
   {
-    ID: 101,
-    Name: "Sneakers",
-    Price: 150,
-    Color: "Black",
-    Discription: "This is best shoes available in market ",
-    Photo:
-      "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww",
+    id: 2,
+    name: "Nomad Tumbler",
+    href: "#",
+    price: "$35",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+    imageAlt:
+      "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
-    ID: 103,
-    Name: "Sneakers",
-    Price: 190,
-    Color: "Black",
-    Discription: "This is best shoes available in market ",
-    Photo:
-      "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww",
+    id: 3,
+    name: "Focus Paper Refill",
+    href: "#",
+    price: "$89",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+    imageAlt:
+      "Person using a pen to cross a task off a productivity paper card.",
   },
   {
-    ID: 104,
-    Name: "Sneakers",
-    Price: $130,
-    Color: "Black",
-    Discription: "This is best shoes available in market ",
-    Photo:
-      "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww",
-  },
-  {
-    ID: 105,
-    Name: "Sneakers",
-    Price: $120,
-    Color: "Black",
-    Discription: "This is best shoes available in market ",
-    Photo:
-      "https://images.unsplash.com/photo-1543508282-6319a3e2621f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHNob2VzfGVufDB8fDB8fHww",
+    id: 4,
+    name: "Machined Mechanical Pencil",
+    href: "#",
+    price: "$35",
+    imageSrc:
+      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+    imageAlt:
+      "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
 ];
