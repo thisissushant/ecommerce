@@ -29,7 +29,7 @@ const Product = [
   {
     ID: 104,
     Name: "Sneakers",
-    Price: 130,
+    Price: $130,
     Color: "Black",
     Discription: "This is best shoes available in market ",
     Photo:
@@ -38,7 +38,7 @@ const Product = [
   {
     ID: 105,
     Name: "Sneakers",
-    Price: 120,
+    Price: $120,
     Color: "Black",
     Discription: "This is best shoes available in market ",
     Photo:
