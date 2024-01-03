@@ -5,7 +5,7 @@ const products = [
     href: "#",
     price: "$48",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-01.jpg",
+      "https://images.pexels.com/photos/3490360/pexels-photo-3490360.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
   },
@@ -15,17 +15,17 @@ const products = [
     href: "#",
     price: "$35",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-02.jpg",
+      "https://images.pexels.com/photos/3261068/pexels-photo-3261068.jpeg",
     imageAlt:
       "Olive drab green insulated bottle with flared screw lid and flat top.",
   },
   {
     id: 3,
     name: "Focus Paper Refill",
-    href: "google.com",
+    href: "https://google.com",
     price: "$89",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-03.jpg",
+      "https://images.pexels.com/photos/2946956/pexels-photo-2946956.jpeg",
     imageAlt:
       "Person using a pen to cross a task off a productivity paper card.",
   },
@@ -35,7 +35,7 @@ const products = [
     href: "#",
     price: "$35",
     imageSrc:
-      "https://tailwindui.com/img/ecommerce-images/category-page-04-image-card-04.jpg",
+      "https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg",
     imageAlt:
       "Hand holding black machined steel mechanical pencil with brass tip and top.",
   },
