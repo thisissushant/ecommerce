@@ -8,6 +8,7 @@ const products = [
       "https://images.pexels.com/photos/3490360/pexels-photo-3490360.jpeg",
     imageAlt:
       "Tall slender porcelain bottle with natural clay textured body and cork stopper.",
+    button: "Add to Cart",
   },
   {
     id: 2,
