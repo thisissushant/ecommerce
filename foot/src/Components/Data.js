@@ -3,7 +3,7 @@ const products = [
     id: 1,
     name: "Earthen Bottle",
     href: "#",
-    price: "$48",
+    price: "Rs 4800",
     imageSrc:
       "https://images.pexels.com/photos/3490360/pexels-photo-3490360.jpeg",
     imageAlt:
@@ -14,7 +14,7 @@ const products = [
     id: 2,
     name: "Nomad Tumbler",
     href: "#",
-    price: "$35",
+    price: "Rs 3500",
     imageSrc:
       "https://images.pexels.com/photos/3261068/pexels-photo-3261068.jpeg",
     imageAlt:
@@ -24,7 +24,7 @@ const products = [
     id: 3,
     name: "Focus Paper Refill",
     href: "https://google.com",
-    price: "$89",
+    price: "Rs 8900",
     imageSrc:
       "https://images.pexels.com/photos/2946956/pexels-photo-2946956.jpeg",
     imageAlt:
@@ -34,7 +34,7 @@ const products = [
     id: 4,
     name: "Machined Mechanical Pencil",
     href: "#",
-    price: "$35",
+    price: "Rs 3500",
     imageSrc:
       "https://images.pexels.com/photos/1537671/pexels-photo-1537671.jpeg",
     imageAlt:
