@@ -29,7 +29,7 @@ export default function Shop() {
                 <div className="flex flex-col space-y-2 md:flex-row-reverse md:space-x-2 md:space-y-0 md:flex-col ">
                   <button
                     type="button"
-                    className="rounded-md bg-stone-200 px-3 py-2 text-sm font-semibold text-black shadow-sm hover:text-green-400 hover:bg-zinc-700/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+                    className="rounded-md bg-zinc-700 px-3 py-2 text-sm font-semibold text-green-400 shadow-sm hover:text-green-400 hover:bg-zinc-500/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                   >
                     Add to Cart
                   </button>
