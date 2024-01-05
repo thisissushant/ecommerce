@@ -11,13 +11,15 @@ export default function Trendy() {
   return (
     <>
       <div>
-        <nav className="bg-gray-800 p-4">
+        <nav className="bg-black p-4 font-Primary">
           <div className="container mx-auto flex justify-between items-center">
-            <div className="text-green-400 font-extrabold ">Trendy</div>
+            <div className="text-green-400 hover:text-red-500 font-extrabold text-6xl ">
+              Trendy
+            </div>
             <div className="hidden md:flex space-x-4">
               <a
                 href="/#"
-                className={`text-green-400 ${
+                className={`text-green-400 hover:text-green-100 ${
                   activeLink === "home" ? "border-b-2 border-white" : ""
                 }`}
                 onClick={() => handleLinkClick("home")}
@@ -26,7 +28,7 @@ export default function Trendy() {
               </a>
               <a
                 href="/#"
-                className={`text-green-400 ${
+                className={`text-green-400 hover:text-green-100 ${
                   activeLink === "about" ? "border-b-2 border-white" : ""
                 }`}
                 onClick={() => handleLinkClick("about")}
@@ -36,7 +38,7 @@ export default function Trendy() {
               <div className="group relative">
                 <a
                   href="/#"
-                  className={`text-green-400 ${
+                  className={`text-green-400 hover:text-green-100 ${
                     activeLink === "services" ? "border-b-2 border-white" : ""
                   }`}
                   onClick={() => handleLinkClick("services")}
@@ -44,7 +46,7 @@ export default function Trendy() {
                   Services
                 </a>
                 <div
-                  className={`absolute hidden mt-2 space-y-2 bg-gray-800 text-green-400 ${
+                  className={`absolute hidden mt-2 space-y-2 bg-gray-800 text-green-400 hover:text-green-100 ${
                     isActive ? "block" : ""
                   }`}
                 >
@@ -61,7 +63,7 @@ export default function Trendy() {
               </div>
               <a
                 href="/#"
-                className={`text-green-400 ${
+                className={`text-green-400 hover:text-green-100 ${
                   activeLink === "contact" ? "border-b-2 border-white" : ""
                 }`}
                 onClick={() => handleLinkClick("contact")}
@@ -70,7 +72,7 @@ export default function Trendy() {
               </a>
             </div>
             <button
-              className="md:hidden text-green-400 focus:outline-none"
+              className="md:hidden text-green-400 hover:text-green-100 focus:outline-none"
               onClick={() => setIsActive(!isActive)}
             >
               <svg
