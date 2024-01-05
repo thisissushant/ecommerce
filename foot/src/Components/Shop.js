@@ -5,7 +5,7 @@ export default function Shop() {
   return (
     <>
       <div className="bg-black">
-        <h2 className="grid justify-items-center py-4  text-4xl text-green-400">
+        <h2 className="font-Primary font-bold grid justify-items-center py-4  text-4xl text-green-400">
           Products
         </h2>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-4 lg:max-w-7xl lg:px-8 py-4">
