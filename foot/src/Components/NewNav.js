@@ -20,7 +20,7 @@ export default function Trendy() {
               <a
                 href="/#"
                 className={`text-green-400 hover:text-green-100 ${
-                  activeLink === "home" ? "border-b-2 border-white" : ""
+                  activeLink === "home" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("home")}
               >
@@ -29,21 +29,23 @@ export default function Trendy() {
               <a
                 href="/#"
                 className={`text-green-400 hover:text-green-100 ${
-                  activeLink === "about" ? "border-b-2 border-white" : ""
+                  activeLink === "about" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("about")}
               >
-                About
+                Shop
               </a>
               <div className="group relative">
                 <a
                   href="/#"
                   className={`text-green-400 hover:text-green-100 ${
-                    activeLink === "services" ? "border-b-2 border-white" : ""
+                    activeLink === "services"
+                      ? "border-b-2 border-green-400"
+                      : ""
                   }`}
                   onClick={() => handleLinkClick("services")}
                 >
-                  Services
+                  Replacement
                 </a>
                 <div
                   className={`absolute hidden mt-2 space-y-2 bg-gray-800 text-green-400 hover:text-green-100 ${
@@ -64,11 +66,29 @@ export default function Trendy() {
               <a
                 href="/#"
                 className={`text-green-400 hover:text-green-100 ${
-                  activeLink === "contact" ? "border-b-2 border-white" : ""
+                  activeLink === "contact" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("contact")}
               >
                 Contact
+              </a>
+            </div>
+            <div>
+              <a
+                className="text-green-400 hover:text-white"
+                href="/#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-cart-shopping"></i>
+              </a>
+              <a
+                className="text-green-400 hover:text-white"
+                href="/#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fa-solid fa-user"></i>{" "}
               </a>
             </div>
             <button
