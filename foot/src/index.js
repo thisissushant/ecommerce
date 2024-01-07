@@ -1,9 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import NewNav from "./Components/NewNav";
+import Navbar from "./Components/Navbar";
 import HeroSection from "./Components/HeroSection";
-import Header from "./Components/Header";
 import reportWebVitals from "./reportWebVitals";
 import Footer from "./Components/Footer";
 import Shop from "./Components/Shop";
@@ -12,7 +11,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
-    <NewNav />
+    <Navbar />
     <HeroSection />
     <Shop />
     <Footer />

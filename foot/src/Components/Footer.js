@@ -2,56 +2,55 @@ import React from "react";
 import "./Footer.css";
 
 const Footer = () => {
+  const handleLinkClick = (link) => {};
   return (
-    <footer className="bg-slate-800	footer ">
-      <div className="footer-content">
-        <div className="footer-logo ">
-          <h1>Trendy</h1>
-        </div>
-        <div className="footer-links">
-          <ul>
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#about">Replacement</a>
-            </li>
-            <li>
-              <a href="#services">About</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
-            </li>
-          </ul>
-        </div>
-        <div className="footer-social">
-          <a
-            href="https://facebook.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-facebook fa-fade fa-xl"></i>
-          </a>
-          <a
-            href="https://twitter.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-twitter fa-fade fa-xl"></i>
-          </a>
-          <a
-            href="https://instagram.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <i class="fa-brands fa-instagram fa-fade fa-xl"></i>
-          </a>
-        </div>
+    <>
+      <div>
+        <nav className="bg-slate-950 p-4 font-Primary border-solid border-2 border-green-100">
+          <div className="container mx-auto flex justify-between items-center">
+            <div className="  grid grid-cols-1  place-content-center text-2xl ml-10">
+              <a
+                href="/#"
+                className="text-green-400 hover:text-green-100   "
+                onClick={() => handleLinkClick("home")}
+              >
+                Home
+              </a>
+              <a
+                href="/#"
+                className="text-green-400 hover:text-green-100 "
+                onClick={() => handleLinkClick("about")}
+              >
+                Shop
+              </a>
+              <a
+                href="/#"
+                className="text-green-400 hover:text-green-100 "
+                onClick={() => handleLinkClick("services")}
+              >
+                Replacement
+              </a>
+              <a
+                href="/#"
+                className="text-green-400 hover:text-green-100  "
+                onClick={() => handleLinkClick("contact")}
+              >
+                Contact
+              </a>
+            </div>
+            <div className="text-green-400 hover:text-red-500 font-extrabold text-4xl md:text-6xl ">
+              Trendy
+            </div>
+          </div>
+          <div className="grid  place-content-center">
+            <p className="text-green-400 text-sm font-Secondary">
+              {" "}
+              &copy;2021 THE TRENDY
+            </p>
+          </div>
+        </nav>
       </div>
-      <div className="footer-bottom">
-        <p>&copy; 2023 The Trendy. All rights reserved.</p>
-      </div>
-    </footer>
+    </>
   );
 };
 

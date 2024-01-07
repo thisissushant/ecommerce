@@ -11,15 +11,15 @@ export default function Trendy() {
   return (
     <>
       <div>
-        <nav className="bg-black p-4 font-Primary">
+        <nav className="bg-black p-4 font-Primary ">
           <div className="container mx-auto flex justify-between items-center">
-            <div className="text-green-400 hover:text-red-500 font-extrabold text-6xl ">
+            <div className="text-green-400 hover:text-red-500 font-extrabold text-4xl md:text-6xl ">
               Trendy
             </div>
-            <div className="hidden md:flex space-x-4">
+            <div className="hidden md:flex space-x-4 ">
               <a
                 href="/#"
-                className={`text-green-400 hover:text-green-100 ${
+                className={`text-green-400 hover:text-green-100 text-3xl mx-2 ${
                   activeLink === "home" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("home")}
@@ -28,7 +28,7 @@ export default function Trendy() {
               </a>
               <a
                 href="/#"
-                className={`text-green-400 hover:text-green-100 ${
+                className={`text-green-400 hover:text-green-100 text-3xl mx-2${
                   activeLink === "about" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("about")}
@@ -38,7 +38,7 @@ export default function Trendy() {
               <div className="group relative">
                 <a
                   href="/#"
-                  className={`text-green-400 hover:text-green-100 ${
+                  className={`text-green-400 hover:text-green-100 text-3xl mx-2 ${
                     activeLink === "services"
                       ? "border-b-2 border-green-400"
                       : ""
@@ -48,7 +48,7 @@ export default function Trendy() {
                   Replacement
                 </a>
                 <div
-                  className={`absolute hidden mt-2 space-y-2 bg-gray-800 text-green-400 hover:text-green-100 ${
+                  className={`absolute hidden mt-2 space-y-2 bg-gray-800 text-green-400 hover:text-green-100 text-3xl mx-2 ${
                     isActive ? "block" : ""
                   }`}
                 >
@@ -65,17 +65,15 @@ export default function Trendy() {
               </div>
               <a
                 href="/#"
-                className={`text-green-400 hover:text-green-100 ${
+                className={`text-green-400 hover:text-green-100 text-3xl mx-2 ${
                   activeLink === "contact" ? "border-b-2 border-green-400" : ""
                 }`}
                 onClick={() => handleLinkClick("contact")}
               >
                 Contact
               </a>
-            </div>
-            <div>
               <a
-                className="text-green-400 hover:text-white"
+                className="text-green-400 hover:text-green-100 text-3xl mx-2"
                 href="/#"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -83,7 +81,7 @@ export default function Trendy() {
                 <i class="fa-solid fa-cart-shopping"></i>
               </a>
               <a
-                className="text-green-400 hover:text-white"
+                className="text-green-400 hover:text-green-100 text-3xl mx-2"
                 href="/#"
                 target="_blank"
                 rel="noopener noreferrer"

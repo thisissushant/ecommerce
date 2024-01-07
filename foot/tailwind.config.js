@@ -4,6 +4,7 @@ module.exports = {
   theme: {
     fontFamily: {
       Primary: ["Long Cang", "cursive"],
+      Secondary: ["Open Sans", "sans-serif"],
     },
     extend: {},
   },
